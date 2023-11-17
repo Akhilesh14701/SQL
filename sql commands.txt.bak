@@ -1,0 +1,22 @@
+a) with table changing column there properties or modifing column:
+	
+	1)for adding new column to the table:
+		alter table table_name add column new_column_name datatype[size];
+	
+	2)for deleting a column in a table:
+		alter table table_name drop column column_name ;
+	
+	3)for changing column name:
+		alter table table_name rename column old_name to new_name;
+		alter table table_name change column old_name new_name datatype[size];
+	
+	4)for modifying column datatype to a other datatype:
+		alter table table_name modify column column_name datatype;
+
+b)dealing with tables
+
+	1)changing table name from old to new value:
+		alter table old_table_name rename new_table_name;
+	
+	2)deleting a table
+		drop table table_name;
